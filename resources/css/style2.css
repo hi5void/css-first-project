@@ -23,9 +23,27 @@
     margin: 1%;
     padding: 1%;
 }
-.wrapper:after{
-    content: "hai";
+.box1:after{
+    content: "";
     display: block;
     clear: both;
+    
+}
+.context{
+    padding: 10px;
+    clear: left;
+    margin: 20px 1%;
+    
+}
+section, aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+.coloum:after{
+    content: "";
+    display: block;
     
 }
