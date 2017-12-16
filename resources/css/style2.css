@@ -1,0 +1,31 @@
+.wrapper{
+    background: #fff;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.red{
+    background: red;
+    float: right;
+}
+.green{
+    background: green;
+    float: right;
+    margin-left: 110px;
+}
+.blue{
+    background: blue;
+    float: right;
+}
+.box{
+    width: 29.33%;
+    height: 100px;
+    margin: 1%;
+    padding: 1%;
+}
+.wrapper:after{
+    content: "hai";
+    display: block;
+    clear: both;
+    
+}

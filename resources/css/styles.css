@@ -1,0 +1,19 @@
+.wrapper{
+    background: #fff;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+p{
+    padding: 30px;
+    background-color: #eee;
+    font-family: arial;
+    line-height: 1.4em;
+}
+img{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
