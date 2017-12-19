@@ -3,6 +3,7 @@
     max-width: 950px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 .red{
     background: red;
@@ -22,10 +23,123 @@
     height: 100px;
     margin: 1%;
     padding: 1%;
+
 }
-.wrapper:after{
-    content: "hai";
+.box1{
+    position: relative;
+}
+.box1 h2{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+
+.box1:after{
+    content: "";
     display: block;
     clear: both;
     
 }
+
+
+.context{
+    padding: 10px;
+    clear: left;
+    margin: 20px 1%;
+   
+    
+}
+.context p{
+    -webkit-column-count:3;
+    column-count:3;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+
+section, aside{
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+.coloum:after{
+    content: "";
+    display: block;
+    
+}
+.subwrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.service h2 .service p{
+    margin: 10px 0;
+    color:#999;
+    text-align: center;
+}
+.service{
+    float: left;
+    background: #ddd;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+}
+
+.service:nth-child(2){
+    top: 10px;
+}
+.service:nth-child(3){
+    top: 20px;
+}
+.service:nth-child(4){
+    top: 30px;
+}
+.servicebox{
+    max-height: 150px;
+    overflow: hidden;
+    
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    float: right;
+    color: #fff;
+    
+ }
+nav a:hover{
+    color: aqua;
+}
+nav{
+    position: fixed;
+    background: #333;
+    padding: 5px;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    
+}
+
+nav:after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
