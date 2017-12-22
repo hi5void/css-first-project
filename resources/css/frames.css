@@ -40,11 +40,13 @@ html, body{
     left: 0;
     animation-name: running;
     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
 
 /*//KEYFRAMES//*/
 @keyframes running{
-    from{transform: translateX(0)}
-    to{transform: translateX(1300px)}
+    from{transform: translateX(200px)}
+    to{transform: translateX(450px)}
 }
 
