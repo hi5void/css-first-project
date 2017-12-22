@@ -8,5 +8,21 @@ body{
     box-sizing: border-box;
 }
 img{
-    transform: rotate(-90deg) translateY(50px) scale(1.5);
+   // transform: rotate(-90deg) translateY(50px) scale(1.5);
+}
+.circle{
+    width: 100px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 60px auto;
+    color: #fff;
+    background:pink;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: 5s,transform .5s  ease;
+}
+.circle:hover{
+    background: salmon;
+    color: gold;
+    transform: rotate(360deg);
 }
