@@ -33,20 +33,34 @@ html, body{
 }
 
 
-.mario{
+.mario1{
     width: 90px;
     position: absolute;
     top: -40px;
     left: 0;
     animation-name: running;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 /*//KEYFRAMES//*/
 @keyframes running{
-    from{transform: translateX(200px)}
-    to{transform: translateX(450px)}
+    from{transform: translateX(-200px)}
+    to{transform: translateX(1400px)}
+}
+@keyframes running2{
+    from{transform: translateX(200px) scaleX(-1)}
+    to{transform: translateX(-1400px) scaleX(-1)}
 }
 
+.mario2{
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    animation-name: running2;
+    animation-duration: 5s;
+/*    animation-fill-mode: both;*/
+    animation-iteration-count: infinite;
