@@ -70,10 +70,14 @@ html, body{
     position: absolute;
     top: 40px;
     right: 0;
+/*
     animation-name: running2;
     animation-duration: 5s;
-/*    animation-fill-mode: both;*/
+    animation-fill-mode: both;
     animation-iteration-count: infinite;
+*/
+    animation: running2 5s infinite linear,
+               jump 0.3s 1.2s ease;
 }
 
 @keyframes running2{
@@ -83,4 +87,9 @@ html, body{
 @keyframes wind{
     from{left:-300px}
     to{left: 100%}
+}
+@keyframes jump{
+    0%{top:-40px}
+    50%{top:-60px}
+    100%{top:-40px}
 }
